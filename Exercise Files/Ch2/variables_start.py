@@ -4,7 +4,7 @@
 
 # Declare a variable and initialize it
 f=0
-# print(f)
+print(f)
 
 # # re-declaring the variable works
 # f="abc"
@@ -13,13 +13,13 @@ f=0
 # print("this is a string " +str(123))
 
 # Global vs. local variables in functions
-def someFunction():
-    global f
-    f="def"
-    print(f)
+# def someFunction():
+    # global f
+    # f="def"
+    # print(f)
 
 someFunction()
-print(f)
+# print(f)
 
 # del f
 # print(f)
